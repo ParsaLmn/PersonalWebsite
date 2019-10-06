@@ -19,55 +19,29 @@
 }
 
 @media screen and (max-width: 992px) {
-	.img-shape {
-		background: url(../../img/bg/shape1.png) no-repeat !important;
-	}
-
-	.img-wave {
-		background: url(../../img/svg/wave.svg) no-repeat bottom !important;
-	}
-
-	.img-cage {
-		background: url(../../img/bg/cage.png) no-repeat bottom left !important;
-		background-size: 25% !important;
-	}
-
-	.img-intro {
-		display: none !important;
-	}
-
 	.sidebar {
 		display: block !important;
 	}
 
 	.menu {
+		display: none !important;
+	}
+
+	.mypic {
 		display: none !important;
 	}
 }
 
 @media screen and (min-width: 992px) {
-	.img-shape {
-		background: url(../../img/bg/shape1.png) no-repeat !important;
-	}
-
-	.img-wave {
-		background: url(../../img/svg/wave.svg) no-repeat bottom !important;
-	}
-
-	.img-cage {
-		background: url(../../img/bg/cage.png) no-repeat bottom left !important;
-		background-size: 25% !important;
-	}
-
-	.img-intro {
-		display: block !important;
-	}
-
 	.sidebar {
 		display: none !important;
 	}
 
 	.menu {
+		display: block !important;
+	}
+
+	.mypic {
 		display: block !important;
 	}
 }
@@ -78,14 +52,19 @@
 	margin: 0 !important;
 	text-decoration: none !important;
 	list-style: none;
-	transition: all 0.3s;
 	text-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+}
+
+html {
+	width: 100% !important;
+	height: 100% !important;
 }
 
 body {
 	background-color: var(--light-cety) !important;
 	color: var(--dark-cety) !important;
 	width: 100% !important;
+	height: 100% !important;
 }
 
 button {
@@ -113,13 +92,13 @@ textarea:focus {
 }
 
 nav>ul>li>span.active {
-	border-bottom: solid 2px var(--purple-cety);
+	border-bottom: solid 1px var(--white-cety);
 }
 
 li:after {
 	display: block;
 	content: '';
-	border-bottom: solid 2px var(--purple-cety);
+	border-bottom: solid 1px var(--white-cety);
 	transform: scaleX(0);
 	transition: transform 250ms ease-in-out;
 }
@@ -247,29 +226,15 @@ nav>ul>li:hover:after {
 	z-index: 200;
 }
 
-.blob1 {
-	background: url(../../img/svg/blob1.svg) no-repeat center;
-	background-size: 100%;
+.vl {
+	height: 30px !important;
+	border-right: 1px solid white;
 }
 
-.blob2 {
-	background: url(../../img/svg/blob2.svg) no-repeat center;
-	background-size: 100%;
-}
-
-.blob3 {
-	background: url(../../img/svg/blob3.svg) no-repeat center;
-	background-size: 100%;
-}
-
-.blob4 {
-	background: url(../../img/svg/blob4.svg) no-repeat center;
-	background-size: 100%;
-}
-
-.blob5 {
-	background: url(../../img/svg/blob5.svg) no-repeat center;
-	background-size: 100%;
+.mypic {
+	background: url(../../img/me/person2.png) center;
+	background-repeat: no-repeat;
+	background-size: auto 100%;
 }
 
 /*----------end custom style part----------*/
@@ -366,11 +331,12 @@ select,
 }
 
 .active {
-	color: var(--purple-cety) !important;
+	color: var(--white-cety) !important;
 }
 
 .btn {
 	padding: 10px 20px !important;
+	border-radius: unset !important;
 }
 
 .valid-feedback {

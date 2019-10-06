@@ -3,21 +3,25 @@
 
 	--warning-cety: #ffff00;/*warning*/
 
-    --success-cety: #339966;/*success*/
+	--success-cety: #339966;/*success*/
+
+	
+	--white-cety: #ffffff;/*white*/
+
+    --light-cety: #f5f5f5;/*light*/
 
     --dark-cety: #333333;/*dark*/
     
-    --gray-cety: #666666;/*gray*/
-    
-	--purple-cety: #990099;/*purple maion color*/
+	--gray-cety: #cccccc;/*gray*/
 	
-	--dark-purple-cety: #330033;/*dark-purple*/
+    
+	--black-cety: #000000;/*black maion color*/
+	
+	--light-black-cety: #1a1a1a;/*light-black*/
 
-	--light-purple-cety: #cc00cc;/*light-purple*/
+	--red-attention-cety: #660000;/*call to action*/
 
-    --white-cety: #ffffff;/*white*/
 
-    --light-cety: #f5f5f5;/*light*/
 }
 
 /*color1*/
@@ -126,39 +130,39 @@
 /*end success part*/
 
 /*dark-purple*/
-.bg-dark-purple-cety {
-	background-color: var(--dark-purple-cety) !important;
+.bg-light-black-cety {
+	background-color: var(--light-black-cety) !important;
 }
 
-.text-dark-purple-cety  {
-	color: var(--dark-purple-cety) !important;
+.text-light-black-cety  {
+	color: var(--light-black-cety) !important;
 }
 
-.hover-text-dark-purple-cety :hover {
-	color: var(--dark-purple-cety) !important;
+.hover-text-light-black-cety :hover {
+	color: var(--light-black-cety) !important;
 }
 
-.hover-bg-dark-purple-cety :hover {
-	background-color: var(--dark-purple-cety) !important;
+.hover-bg-light-black-cety :hover {
+	background-color: var(--light-black-cety) !important;
 }
 
-.active-text-dark-purple-cety :active {
-	color: var(--dark-purple-cety) !important;
+.active-text-light-black-cety :active {
+	color: var(--light-black-cety) !important;
 }
 
-.active-bg-dark-purple-cety :active {
-	background-color: var(--dark-purple-cety) !important;
+.active-bg-light-black-cety :active {
+	background-color: var(--light-black-cety) !important;
 }
 
-.focus-text-dark-purple-cety :focus {
-	color: var(--dark-purple-cety) !important;
+.focus-text-light-black-cety :focus {
+	color: var(--light-black-cety) !important;
 }
 
-.focus-bg-dark-purple-cety :focus {
-	background-color: var(--dark-purple-cety) !important;
+.focus-bg-light-black-cety :focus {
+	background-color: var(--light-black-cety) !important;
 }
 
-/*end dark-purple part*/
+/*end light-black part*/
 
 /*dark*/
 .bg-dark-cety  {
@@ -230,40 +234,40 @@
 
 /*end gray part*/
 
-/*purple*/
-.bg-purple-cety  {
-	background-color: var(--purple-cety) !important;
+/*black*/
+.bg-black-cety  {
+	background-color: var(--black-cety) !important;
 }
 
-.text-purple-cety {
-	color: var(--purple-cety) !important;
+.text-black-cety {
+	color: var(--black-cety) !important;
 }
 
-.hover-text-purple-cety:hover {
-	color: var(--purple-cety) !important;
+.hover-text-black-cety:hover {
+	color: var(--black-cety) !important;
 }
 
-.hover-bg-purple-cety:hover {
-	background-color: var(--purple-cety) !important;
+.hover-bg-black-cety:hover {
+	background-color: var(--black-cety) !important;
 }
 
-.active-text-purple-cety:active {
-	color: var(--purple-cety) !important;
+.active-text-black-cety:active {
+	color: var(--black-cety) !important;
 }
 
-.active-bg-purple-cety:active {
-	background-color: var(--purple-cety) !important;
+.active-bg-black-cety:active {
+	background-color: var(--black-cety) !important;
 }
 
-.focus-text-purple-cety:focus {
-	color: var(--purple-cety) !important;
+.focus-text-black-cety:focus {
+	color: var(--black-cety) !important;
 }
 
-.focus-bg-purple-cety:focus {
-	background-color: var(--purple-cety) !important;
+.focus-bg-black-cety:focus {
+	background-color: var(--black-cety) !important;
 }
 
-/*end purple part*/
+/*end black part*/
 
 /*white*/
 .bg-white-cety  {
@@ -336,36 +340,36 @@
 /*end light part*/
 
 /*light purple*/
-.bg-light-purple-cety  {
-	background-color: var(--light-purple-cety) !important;
+.bg-red-attention-cety  {
+	background-color: var(--red-attention-cety) !important;
 }
 
-.text-light-purple-cety {
-	color: var(--light-purple-cety) !important;
+.text-red-attention-cety {
+	color: var(--red-attention-cety) !important;
 }
 
-.hover-text-light-purple-cety:hover {
-	color: var(--light-purple-cety) !important;
+.hover-text-red-attention-cety:hover {
+	color: var(--red-attention-cety) !important;
 }
 
-.hover-bg-light-purple-cety:hover {
-	background-color: var(--light-purple-cety) !important;
+.hover-bg-red-attention-cety:hover {
+	background-color: var(--red-attention-cety) !important;
 }
 
-.active-text-light-purple-cety:active {
-	color: var(--light-purple-cety) !important;
+.active-text-red-attention-cety:active {
+	color: var(--red-attention-cety) !important;
 }
 
-.active-bg-light-purple-cety:active {
-	background-color: var(---light-purple-cety) !important;
+.active-bg-red-attention-cety:active {
+	background-color: var(---red-attention-cety) !important;
 }
 
-.focus-text-light-purple-cety:focus {
-	color: var(--light-purple-cety) !important;
+.focus-text-red-attention-cety:focus {
+	color: var(--red-attention-cety) !important;
 }
 
-.focus-bg-light-purple-cety:focus {
-	background-color: var(--light-purple-cety) !important;
+.focus-bg-red-attention-cety:focus {
+	background-color: var(--red-attention-cety) !important;
 }
 
-/*end light purple part*/
+/*end red-attention part*/

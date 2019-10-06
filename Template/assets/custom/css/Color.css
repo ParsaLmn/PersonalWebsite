@@ -3,21 +3,25 @@
 
 	--warning-cety: #ffff00;/*warning*/
 
-    --success-cety: #339966;/*success*/
+	--success-cety: #339966;/*success*/
+
+	
+	--white-cety: #ffffff;/*white*/
+
+    --light-cety: #f5f5f5;/*light*/
 
     --dark-cety: #333333;/*dark*/
     
-    --gray-cety: #666666;/*gray*/
-    
-	--purple-cety: #990099;/*purple maion color*/
+	--gray-cety: #cccccc;/*gray*/
 	
-	--dark-purple-cety: #330033;/*dark-purple*/
+    
+	--black-cety: #000000;/*black maion color*/
+	
+	--light-black-cety: #1a1a1a;/*light-black*/
 
-	--light-purple-cety: #cc00cc;/*light-purple*/
+	--red-attention-cety: #660000;/*call to action*/
 
-    --white-cety: #ffffff;/*white*/
 
-    --light-cety: #f5f5f5;/*light*/
 }
 
 /*color1*/
@@ -127,35 +131,35 @@
 
 /*dark-purple*/
 .bg-dark-purple-cety {
-	background-color: var(--dark-purple-cety) !important;
+	background-color: var(--light-black-cety) !important;
 }
 
 .text-dark-purple-cety  {
-	color: var(--dark-purple-cety) !important;
+	color: var(--light-black-cety) !important;
 }
 
 .hover-text-dark-purple-cety :hover {
-	color: var(--dark-purple-cety) !important;
+	color: var(--light-black-cety) !important;
 }
 
 .hover-bg-dark-purple-cety :hover {
-	background-color: var(--dark-purple-cety) !important;
+	background-color: var(--light-black-cety) !important;
 }
 
 .active-text-dark-purple-cety :active {
-	color: var(--dark-purple-cety) !important;
+	color: var(--light-black-cety) !important;
 }
 
 .active-bg-dark-purple-cety :active {
-	background-color: var(--dark-purple-cety) !important;
+	background-color: var(--light-black-cety) !important;
 }
 
 .focus-text-dark-purple-cety :focus {
-	color: var(--dark-purple-cety) !important;
+	color: var(--light-black-cety) !important;
 }
 
 .focus-bg-dark-purple-cety :focus {
-	background-color: var(--dark-purple-cety) !important;
+	background-color: var(--light-black-cety) !important;
 }
 
 /*end dark-purple part*/
@@ -232,35 +236,35 @@
 
 /*purple*/
 .bg-purple-cety  {
-	background-color: var(--purple-cety) !important;
+	background-color: var(--black-cety) !important;
 }
 
 .text-purple-cety {
-	color: var(--purple-cety) !important;
+	color: var(--black-cety) !important;
 }
 
 .hover-text-purple-cety:hover {
-	color: var(--purple-cety) !important;
+	color: var(--black-cety) !important;
 }
 
 .hover-bg-purple-cety:hover {
-	background-color: var(--purple-cety) !important;
+	background-color: var(--black-cety) !important;
 }
 
 .active-text-purple-cety:active {
-	color: var(--purple-cety) !important;
+	color: var(--black-cety) !important;
 }
 
 .active-bg-purple-cety:active {
-	background-color: var(--purple-cety) !important;
+	background-color: var(--black-cety) !important;
 }
 
 .focus-text-purple-cety:focus {
-	color: var(--purple-cety) !important;
+	color: var(--black-cety) !important;
 }
 
 .focus-bg-purple-cety:focus {
-	background-color: var(--purple-cety) !important;
+	background-color: var(--black-cety) !important;
 }
 
 /*end purple part*/
@@ -337,35 +341,35 @@
 
 /*light purple*/
 .bg-light-purple-cety  {
-	background-color: var(--light-purple-cety) !important;
+	background-color: var(--red-attention-cety) !important;
 }
 
 .text-light-purple-cety {
-	color: var(--light-purple-cety) !important;
+	color: var(--red-attention-cety) !important;
 }
 
 .hover-text-light-purple-cety:hover {
-	color: var(--light-purple-cety) !important;
+	color: var(--red-attention-cety) !important;
 }
 
 .hover-bg-light-purple-cety:hover {
-	background-color: var(--light-purple-cety) !important;
+	background-color: var(--red-attention-cety) !important;
 }
 
 .active-text-light-purple-cety:active {
-	color: var(--light-purple-cety) !important;
+	color: var(--red-attention-cety) !important;
 }
 
 .active-bg-light-purple-cety:active {
-	background-color: var(---light-purple-cety) !important;
+	background-color: var(---red-attention-cety) !important;
 }
 
 .focus-text-light-purple-cety:focus {
-	color: var(--light-purple-cety) !important;
+	color: var(--red-attention-cety) !important;
 }
 
 .focus-bg-light-purple-cety:focus {
-	background-color: var(--light-purple-cety) !important;
+	background-color: var(--red-attention-cety) !important;
 }
 
 /*end light purple part*/

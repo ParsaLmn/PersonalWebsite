@@ -26,10 +26,6 @@
 	.menu {
 		display: none !important;
 	}
-
-	.mypic {
-		display: none !important;
-	}
 }
 
 @media screen and (min-width: 992px) {
@@ -38,10 +34,6 @@
 	}
 
 	.menu {
-		display: block !important;
-	}
-
-	.mypic {
 		display: block !important;
 	}
 }
@@ -231,11 +223,21 @@ nav>ul>li:hover:after {
 	border-right: 1px solid white;
 }
 
-.mypic {
-	background: url(../../img/me/person2.png) center;
+.img-bg {
+	background: url(https://www.dundeephotographystudio.co.uk/wp-content/uploads/2018/12/Ellie-Fine-Art-landscapeweb.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 }
+
+.bg-op-5 {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-op-7 {
+	background-color: rgba(0, 0, 0, 0.7) !important;
+}
+
 
 /*----------end custom style part----------*/
 
@@ -312,6 +314,11 @@ button:focus {
 	box-shadow: none !important;
 }
 
+.dropdown-item:hover,
+.dropdown-item:focus {
+	background-color: rgba(0, 0, 0, 1) !important;
+}
+
 select,
 .fa,
 .fas,
@@ -349,6 +356,10 @@ select,
 	display: block;
 	margin-top: 10px !important;
 	color: var(--danger-cety) !important;
+}
+
+.dropdown-menu {
+	right: 0 !important;
 }
 
 /*end ovver writing bootstrap */

@@ -184,11 +184,28 @@
                             </a>
                         </li>
                         <li class="border-bottom">
-                            <a href="./Work Samples.html">
+                            <button class="btn" onclick="test2(this)">
                                 <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
                                     نمونه کار ها
+                                    <i class="fa fa-caret-down"></i>
                                 </span>
-                            </a>
+                            </button>
+                            <ul class="d-none mx-4 py-2">
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-08x">نمونه
+                                            کار عکاسی</span>
+                                    </a>
+                                </li>
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-08x">نمونه
+                                            کار طراحی لوگو</span>
+                                    </a>
+                                </li>
+                            </ul>
                         </li>
                         <li class="border-bottom">
                             <a href="#">
@@ -215,10 +232,17 @@
         </nav>
         <!-- end nav -->
 
-        <div class="cover bg-dark-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
+        <div class="cover bg-light-black-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
 
     </div>
     <!-- end sidebar or navbar -->
+
+    <script>
+        function test2(sp) {
+            var list = $(sp).parent().children("ul");
+            list.toggleClass("d-none");
+        }
+    </script>
 </body>
 
 </html>

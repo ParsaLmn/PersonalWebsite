@@ -235,7 +235,7 @@ function wpadminbar_mt() {
 
 function rm_sidenavlist_closeNav() {
 
-    $("#sidenavlist ul").removeAttr('class');
+    $("#sidenavlist ul:first").removeAttr('class');
 }
 
 /* end remove sidenavlist classes */
@@ -243,7 +243,7 @@ function rm_sidenavlist_closeNav() {
 /* side navbar add class to */
 
 function li_addcls() {
-    $("#sidenavlist ul").children('li').addClass("border-bottom");
+    $("#sidenavlist ul:first").children('li').addClass("border-bottom");
 }
 
 /* end side navbar add class to */

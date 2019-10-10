@@ -26,10 +26,6 @@
 	.menu {
 		display: none !important;
 	}
-
-	.mypic {
-		display: none !important;
-	}
 }
 
 @media screen and (min-width: 992px) {
@@ -38,10 +34,6 @@
 	}
 
 	.menu {
-		display: block !important;
-	}
-
-	.mypic {
 		display: block !important;
 	}
 }
@@ -53,6 +45,7 @@
 	text-decoration: none !important;
 	list-style: none;
 	text-shadow: 0 0.3rem 0.3rem rgba(0, 0, 0, 0.15) !important;
+	transition: all 0.3s;
 }
 
 html {
@@ -84,11 +77,21 @@ textarea::placeholder {
 }
 
 input:focus {
-	border-color: var(--purple-cety) !important;
+	border-color: var(--dark-red-cety) !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 textarea:focus {
-	border-color: var(--purple-cety) !important;
+	border-color: var(--dark-red-cety) !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+input:hover {
+	border-color: var(--dark-red-cety) !important;
+}
+
+textarea:hover {
+	border-color: var(--dark-red-cety) !important;
 }
 
 nav>ul>li>span.active {
@@ -231,11 +234,25 @@ nav>ul>li:hover:after {
 	border-right: 1px solid white;
 }
 
-.mypic {
-	background: url(../../img/me/person2.png) center;
+.img-bg {
+	background: url(https://www.dundeephotographystudio.co.uk/wp-content/uploads/2018/12/Ellie-Fine-Art-landscapeweb.jpg);
+	background-position: center;
 	background-repeat: no-repeat;
-	background-size: auto 100%;
+	background-size: cover;
 }
+
+.bg-op-5 {
+	background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.bg-op-7 {
+	background-color: rgba(0, 0, 0, 0.9) !important;
+}
+
+.img-cover{
+	object-fit: cover;
+}
+
 
 /*----------end custom style part----------*/
 
@@ -309,7 +326,17 @@ select:focus {
 
 button:focus {
 	outline: none;
-	box-shadow: none !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+button:hover {
+	outline: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
+}
+
+.dropdown-item:hover,
+.dropdown-item:focus {
+	background-color: rgba(0, 0, 0, 1) !important;
 }
 
 select,
@@ -349,6 +376,10 @@ select,
 	display: block;
 	margin-top: 10px !important;
 	color: var(--danger-cety) !important;
+}
+
+.dropdown-menu {
+	right: 0 !important;
 }
 
 /*end ovver writing bootstrap */

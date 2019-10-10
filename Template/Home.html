@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>test</title>
     <link rel="icon" href="./assets/img/logo/logo2_black_icon.ico">
     <link rel="stylesheet" href="assets/custom/css/Style.css">
     <link rel="stylesheet" href="assets/custom/css/Rtl.css">
@@ -21,12 +21,15 @@
 <body>
 
     <!-- header part -->
-    <header class="">
+    <header class="" style="position: absolute;width:100%;z-index: 100;">
 
-        <!-- menu section-->
-        <div class="bg-black-cety menu shadow-bottom">
+        <!-- menu section for large screens -->
+        <div class="bg-transparent menu">
+            <!-- menu parts -->
             <div class="d-flex flex-col align-items-center justify-content-center ">
+                <!-- nav bar -->
                 <nav class="col-6">
+                    <!-- menu list -->
                     <ul class="d-flex align-items-center justify-content-around">
                         <li class="">
                             <span class=" active">خانه</span>
@@ -38,13 +41,20 @@
                         </li>
                         <li class="nav-item dropdown p-0 m-0">
                             <a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
-                                <span class="nav-link dropdown-toggle text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                <span
+                                    class="nav-link dropdown-toggle text-gray-cety hover-text-white-cety focus-text-white-cety">
                                     نمونه کار ها
                                 </span>
                             </a>
-                            <div class="dropdown-menu bg-gray-cety text-left rounded-0 mt-1">
-                                <a href="#"><span class="p-2 dropdown-item text-black-cety fa-09x">نمونه کار عکاسی</span></a>
-                                <a href="#"><span class="p-2 dropdown-item text-black-cety fa-09x">نمونه کار طراحی لوگو</span></a>
+                            <div class="dropdown-menu bg-transparent text-left rounded-0 mt-1 bg-op-7">
+                                <a href="#"><span
+                                        class="p-2 dropdown-item text-gray-cety hover-text-white-cety focus-text-white-cety fa-09x">نمونه
+                                        کار
+                                        عکاسی</span></a>
+                                <a href="#"><span
+                                        class="p-2 dropdown-item text-gray-cety hover-text-white-cety focus-text-white-cety fa-09x">نمونه
+                                        کار طراحی
+                                        لوگو</span></a>
                             </div>
                         </li>
                         <li class="">
@@ -65,21 +75,28 @@
                             </a>
                         </li>
                     </ul>
+                    <!-- end menu list -->
                 </nav>
-                <div class="vl"></div>
+                <!-- end navbar -->
+
+                <div class="vl"></div><!-- for vertical line -->
+
+                <!-- logo -->
                 <div class="col-3 col-sm-1">
                     <div class="d-flex w-75">
                         <a href="./Home.html">
-                            <img src="./assets/img/logo/logo2 white png.png" alt="logo-image" class="w-100">
+                            <img src="./assets/img/logo/logo2 white png.png" alt="logo-image" class="w-100"><!-- logo img -->
                         </a>
                     </div>
                 </div>
+                <!-- end logo -->
             </div>
+            <!-- end menu parts -->
         </div>
-        <!-- end menu section-->
+        <!-- end menu section for large screens-->
 
         <!-- collapse menu section-->
-        <div class="shadow bg-black-cety sidebar">
+        <div class=" bg-transparent sidebar">
             <div class="d-flex align-items-center justify-content-between container mx-auto p-2">
 
                 <!--logo pic -->
@@ -110,36 +127,44 @@
     <!-- end header part -->
 
     <!-- body part-->
-    <main class="w-100 h-100" style="position: absolute;top: 0;z-index: -1;">
-        <div class="w-100 h-100 d-flex flex-row">
-            <div class="col-12 col-lg-6">
-                <div class="d-flex w-100 h-100 text-gray-cety bg-black-cety">
-                    <div class="d-flex flex-column justify-content-center mx-auto text-left px-3">
-                        <h2 class="my-2">نام و نام خانوادگی من</h2>
-                        <h5 class="my-2">کار شماره یک من / / کار شماره دو من</h5>
-                        <p class="my-2 m-0 p-0 fa-09x">یه توضیح خلاصه یک خطی از من و بیوگرافی من</p>
-                        <div class="d-flex flex-row align-items-center justify-content-between my-2">
-                            <div>
-                                <a href="https://www.facebook.com">
-                                    <span class="btn bg-gray-cety text-black-cety 
+    <main class="w-100 h-100" style="position: absolute;top:0;">
+        <div class="w-100 h-100 d-flex flex-row img-bg">
+            <!-- this sections body parts -->
+            <div class="d-flex w-100 h-100 bg-op-5">
+                <div class="d-flex flex-column text-gray-cety justify-content-center mx-auto text-left px-3">
+
+                    <h2 class="my-2">نام و نام خانوادگی من</h2><!-- first & last name -->
+
+                    <h5 class="my-2">کار شماره یک من / / کار شماره دو من</h5><!-- my jobs -->
+
+                    <p class="my-2 m-0 p-0 fa-09x">یه توضیح خلاصه یک خطی از من و بیوگرافی من</p><!-- my bio -->
+
+                    <!-- my social media -->
+                    <div class="d-flex flex-row align-items-center justify-content-between my-2">
+
+                        <div>
+                            <a href="https://www.facebook.com">
+                                <span class="btn bg-gray-cety text-black-cety 
                                         hover-bg-white-cety focus-bg-white-cety">
-                                        نمونه کار های من
-                                    </span>
-                                </a>
-                            </div>
-                            <a href=""><i
-                                    class="fab fa-facebook text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
-                            <a href=""><i
-                                    class="fab fa-linkedin text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
-                            <a href=""><i
-                                    class="fab fa-twitter text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
-                            <a href=""><i
-                                    class="fab fa-instagram text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
-                        </div>
+                                    نمونه کار های من
+                                </span>
+                            </a>
+                        </div><!-- my work samples -->
+
+                        <a href=""><i
+                                class="fab fa-facebook text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
+                        <a href=""><i
+                                class="fab fa-linkedin text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
+                        <a href=""><i
+                                class="fab fa-twitter text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
+                        <a href=""><i
+                                class="fab fa-instagram text-gray-cety hover-text-white-cety focus-text-white-cety"></i></a>
                     </div>
+                    <!--  end my social media -->
                 </div>
             </div>
-            <div class="col-12 col-lg-6 bg-black-cety mypic"></div>
+            <!-- end this sections body parts -->
+
         </div>
     </main>
     <!-- end body part-->
@@ -148,7 +173,7 @@
     <!-- side bar or navbar -->
     <div>
         <!-- the nav -->
-        <nav class="sidenav pt-1 bg-black-cety" id="Sidenav">
+        <nav class="sidenav pt-1 bg-light-black-cety" id="Sidenav">
             <div class="d-flex flex-column">
                 <!-- logo and close btn -->
                 <div class="d-flex flex-row">
@@ -167,40 +192,61 @@
                 </div>
                 <!-- end logo and close btn -->
                 <!-- links list -->
-                <div id="sidenavlist" class="w-100 text-center">
+                <div id="sidenavlist" class="w-100 text-center pt-4">
                     <ul>
                         <li class="border-bottom">
                             <span class="active">خانه</span>
                         </li>
                         <li class="border-bottom">
                             <a href="./OrderPage.html">
-                                <span class="text-white-cety hover-text-gray-cety focus-text-gray-cety">رزومه
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">رزومه
                                 </span>
                             </a>
                         </li>
                         <li class="border-bottom">
-                            <a href="./Work Samples.html">
-                                <span class="text-white-cety hover-text-gray-cety focus-text-gray-cety">
+                            <button class="btn" onclick="sub_menu(this)">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
                                     نمونه کار ها
+                                    <i class="fa fa-caret-down"></i>
                                 </span>
-                            </a>
+                            </button>
+
+                            <!-- sub menu -->
+                            <ul class="d-none mx-4 py-2">
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-07x">نمونه
+                                            کار عکاسی</span>
+                                    </a>
+                                </li>
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-07x">نمونه
+                                            کار طراحی لوگو</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- end sub menu -->
+                            
                         </li>
                         <li class="border-bottom">
                             <a href="#">
-                                <span class="text-white-cety hover-text-gray-cety focus-text-gray-cety">درباره
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">درباره
                                     من</span>
                             </a>
                         </li>
                         <li class="border-bottom">
                             <a href="#">
-                                <span class="text-white-cety hover-text-gray-cety focus-text-gray-cety">ارتباط با
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
                                     من</span>
                             </a>
                         </li>
 
                         <li class="border-bottom">
                             <a href="./Weblog.html">
-                                <span class="text-white-cety hover-text-gray-cety focus-text-gray-cety">وبلاگ</span>
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">وبلاگ</span>
                             </a>
                         </li>
                     </ul>
@@ -210,10 +256,11 @@
         </nav>
         <!-- end nav -->
 
-        <div class="cover bg-dark-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
+        <div class="cover bg-light-black-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
 
     </div>
     <!-- end sidebar or navbar -->
+
 </body>
 
 </html>

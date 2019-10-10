@@ -19,7 +19,7 @@
 	
 	--light-black-cety: #1a1a1a;/*light-black*/
 
-	--red-attention-cety: #660000;/*call to action*/
+	--dark-red-cety: #660000;/*call to action*/
 
 
 }
@@ -340,36 +340,36 @@
 /*end light part*/
 
 /*light purple*/
-.bg-red-attention-cety  {
-	background-color: var(--red-attention-cety) !important;
+.bg-dark-red-cety  {
+	background-color: var(--dark-red-cety) !important;
 }
 
-.text-red-attention-cety {
-	color: var(--red-attention-cety) !important;
+.text-dark-red-cety {
+	color: var(--dark-red-cety) !important;
 }
 
-.hover-text-red-attention-cety:hover {
-	color: var(--red-attention-cety) !important;
+.hover-text-dark-red-cety:hover {
+	color: var(--dark-red-cety) !important;
 }
 
-.hover-bg-red-attention-cety:hover {
-	background-color: var(--red-attention-cety) !important;
+.hover-bg-dark-red-cety:hover {
+	background-color: var(--dark-red-cety) !important;
 }
 
-.active-text-red-attention-cety:active {
-	color: var(--red-attention-cety) !important;
+.active-text-dark-red-cety:active {
+	color: var(--dark-red-cety) !important;
 }
 
-.active-bg-red-attention-cety:active {
-	background-color: var(---red-attention-cety) !important;
+.active-bg-dark-red-cety:active {
+	background-color: var(---dark-red-cety) !important;
 }
 
-.focus-text-red-attention-cety:focus {
-	color: var(--red-attention-cety) !important;
+.focus-text-dark-red-cety:focus {
+	color: var(--dark-red-cety) !important;
 }
 
-.focus-bg-red-attention-cety:focus {
-	background-color: var(--red-attention-cety) !important;
+.focus-bg-dark-red-cety:focus {
+	background-color: var(--dark-red-cety) !important;
 }
 
-/*end red-attention part*/
+/*end dark-red part*/

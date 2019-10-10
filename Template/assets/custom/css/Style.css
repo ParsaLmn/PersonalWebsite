@@ -239,6 +239,10 @@ nav>ul>li:hover:after {
 	background-color: rgba(0, 0, 0, 0.7) !important;
 }
 
+.img-cover{
+	object-fit: cover;
+}
+
 
 /*----------end custom style part----------*/
 

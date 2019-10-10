@@ -307,3 +307,12 @@ $(document).ready(function () {
     });
 });
 /* end Animations on scroll */
+
+/* Sub menu Function */
+
+function sub_menu(sp) {
+    var list = $(sp).parent().children("ul");
+    list.toggleClass("d-none");
+}
+
+/* end Sub menu Function */

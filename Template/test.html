@@ -135,85 +135,144 @@
         <section class="container bg-white mx-auto pt-5 px-3 px-lg-0 pb-5">
             <div class="row justify-content-around">
 
-                <!-- weblog section -->
+                <!-- contact form section -->
                 <div class="col-12 col-lg-7 mb-3 mb-lg-0 order-lg-0">
 
-                    <!-- weblog -->
-                    <article>
+                    <!-- text-->
+                    <div class="px-lg-5 text-left">
+                        <p>اگر نظر و پیشنهاد دارید برای من بنویسید</p>
+                    </div>
+                    <!-- end text-->
 
-                        <!-- weblog image -->
-                        <div>
-                            <img src="./assets/img/weblogs/weblog4.jpg" alt="weblog-image" class="w-100 img-cover">
-                        </div>
-                        <!-- end weblog image -->
+                    <!-- form section-->
+                    <div class="px-lg-5 mt-4">
+                        <!-- contact form -->
+                        <form action="">
 
-                        <!-- weblog title -->
-                        <h5 class="text-dark-red-cety text-center my-3">موضوع وبلاگ</h5>
-                        <!-- end weblog title -->
+                            <!-- name and last name -->
+                            <div class="form-row justify-content-between mb-4">
 
-                        <!-- weblog text -->
-                        <p class="text-justify text-dark-cety mt-3 mb-5 mb-lg-3">لورم ایپسوم متن ساختگی با تولید سادگی
-                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
-                            روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                            کاربردهای متنوع
-                            با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
-                            شناخ
-                            ت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
-                            علی
-                            الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که
-                            تمام
-                            و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
-                            دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                        </p>
-                        <!-- end weblog text -->
+                                <!-- name part -->
+                                <div class="col-6 form-group text-left pr-3">
+                                    <label class="fa-08x p-1" for="name">نام</label>
+                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="name"
+                                        aria-describedby="name"><!-- name input -->
+                                    <!--clear btn-->
+                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
+                                </div>
+                                <!-- end name part -->
 
-                        <hr><!-- horizental line for seperation -->
-
-                        <!-- weblog time and date -->
-                        <div class="d-flex flex-row justify-content-between my-3">
-                            <div class="mx-2">نوشته شده در:</div>
-                            <div>
-                                <span class="mx-2">15:30</span><!-- weblog time -->
-                                <span>-</span>
-                                <span class="mx-2">98/08/11</span><!-- weblog date -->
+                                <!-- last name part -->
+                                <div class="col-6 form-group text-left pl-3">
+                                    <label class="fa-08x p-1 " for="lastname">نام خانواگی</label>
+                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="lastname"
+                                        aria-describedby="lastname"><!-- last name input -->
+                                    <div class="invalid-feedback">وارد کردن نام خانوادگی ضروری است</div>
+                                    <!-- feedback msg -->
+                                </div>
+                                <!-- end last name part -->
                             </div>
-                        </div>
-                        <!-- end weblog time and date -->
+                            <!-- end name and last name -->
 
-                    </article>
-                    <!-- end weblog -->
-                    
+                            <!-- email -->
+                            <div class="form-row mb-4">
+
+                                <!-- email part -->
+                                <div class="col-12 form-group  text-left">
+                                    <label class="fa-08x p-1" for="email">پست الکترونیک</label>
+                                    <input type="email" class="form-control text-dark-cety p-2 rounded-0" id="email"
+                                        aria-describedby="name"><!-- name input -->
+                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
+                                </div>
+                                <!-- end email part -->
+
+                            </div>
+                            <!-- end email -->
+
+                            <!-- title -->
+                            <div class="form-row mb-4">
+
+                                <!-- title part -->
+                                <div class="col-12 form-group  text-left">
+                                    <label class="fa-08x p-1" for="title">موضوع</label>
+                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="title"
+                                        aria-describedby="name"><!-- title input -->
+                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
+                                </div>
+                                <!-- end title part -->
+
+                            </div>
+                            <!-- end title -->
+
+                            <!-- description -->
+                            <div class="form-row mb-4">
+
+                                <!-- description part -->
+                                <div class="col-12 form-group  text-left">
+                                    <label class="fa-08x p-1" for="description">پیغام</label>
+                                    <textarea class="form-control rounded-0 text-dark-cety p-2" id="description"
+                                        rows="3"></textarea>
+                                    <!-- description input -->
+                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
+                                </div>
+                                <!-- end description part -->
+
+                            </div>
+                            <!-- end email -->
+
+                            <div class="col-12 mt-4">
+                                <button type="submit"
+                                    class="btn rounded-0 bg-dark-red-cety text-white-cety focus-bg-gray-cety
+                                     focus-text-dark-cety">
+                                    تایید
+                                </button>
+                            </div>
+                            <!-- sibmit btn -->
+
+                        </form>
+                        <!-- end contact form -->
+                    </div>
+                    <!-- end form section-->
+
                 </div>
-                <!-- end weblog section -->
+                <!-- contact form section -->
 
                 <!-- side section -->
                 <div class="col-12 col-lg-3 mb-3 mt-5 mt-lg-0 mb-lg-0 order-lg-1">
 
-                    <!-- side title -->
-                    <div class="d-flex justify-content-center mb-3">
-                        <h6 class="text-dark-cety">آخرین وبلاگ</h6>
-                    </div>
-                    <!-- end side title -->
-
-                    <!-- side weblog -->
+                    <!-- side info -->
                     <div class="px-5 px-lg-4 my-3">
-                        <!-- side weblog body-->
-                        <a href="./Weblog-Detail.html">
+                        <!-- side info body-->
+                        <div>
+
+                            <!-- my image-->
                             <div>
-                                <img src="./assets/img/weblogs/weblog3.jpg" alt="weblog-image" class="w-100 img-cover"
-                                    height="300px">
+                                <img src="./assets/img/photograpgy/portrate3.jpg" alt="weblog-image"
+                                    class="w-100 img-cover" height="300px">
                             </div>
-                            <!--weblog image-->
-                            <h6 class="text-dark-red-cety text-center py-3">موضوع وبلاگ</h6><!-- weblog title-->
-                            <p class="text-dark-cety text-justify pb-3 fa-07x">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                است.
-                            </p>
-                            <!--weblog desc-->
-                        </a>
-                        <!--end side weblog body-->
+                            <!-- end my image-->
+
+                            <h6 class="text-dark-cety text-center pt-3 pb-1">MyEmail@gmail.com</h6><!-- my email-->
+
+                            <h6 class="text-dark-cety text-center py-1">0911-313-5088</h6><!-- my phone number-->
+
+                            <!-- social media -->
+                            <div class="d-flex justify-content-center">
+                                <a href=""><i
+                                        class="fab fa-facebook text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-linkedin text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-twitter text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
+                                <a href=""><i
+                                        class="fab fa-instagram text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
+                            </div>
+                            <!-- end social media -->
+
+                        </div>
+                        <!--end side info body-->
                     </div>
-                    <!-- side weblog -->
+                    <!-- side info -->
                 </div>
                 <!-- end side section -->
 

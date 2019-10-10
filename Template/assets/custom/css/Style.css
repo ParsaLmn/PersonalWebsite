@@ -77,11 +77,21 @@ textarea::placeholder {
 }
 
 input:focus {
-	border-color: var(--purple-cety) !important;
+	border-color: var(--dark-red-cety) !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
 }
 
 textarea:focus {
-	border-color: var(--purple-cety) !important;
+	border-color: var(--dark-red-cety) !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+input:hover {
+	border-color: var(--dark-red-cety) !important;
+}
+
+textarea:hover {
+	border-color: var(--dark-red-cety) !important;
 }
 
 nav>ul>li>span.active {
@@ -316,7 +326,12 @@ select:focus {
 
 button:focus {
 	outline: none;
-	box-shadow: none !important;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15) !important;
+}
+
+button:hover {
+	outline: none;
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
 }
 
 .dropdown-item:hover,

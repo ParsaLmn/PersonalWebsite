@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="fa">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>نمونه کار - طراحی لوگو</title>
+    <link rel="icon" href="./assets/img/logo/logo2_black_icon.ico">
+    <link rel="stylesheet" href="assets/custom/css/Style.css">
+    <link rel="stylesheet" href="assets/custom/css/Rtl.css">
+    <link rel="stylesheet" href="/assets/custom/css/FontAwesome-Custom.css">
+    <script src="/assets/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script src="assets/bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
+    <script src="../../bootstrap-4.1.3/js/bootstrap.js"></script>
+    <script src="./assets/custom/js/Actions.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+</head>
+
+<body>
+
+    <!-- header part -->
+    <header class="">
+
+        <!-- menu section for large screens -->
+        <div class="bg-dark-cety menu">
+            <!-- menu parts -->
+            <div class="d-flex flex-col align-items-center justify-content-center ">
+                <!-- nav bar -->
+                <nav class="col-6">
+                    <!-- menu list -->
+                    <ul class="d-flex align-items-center justify-content-around">
+                        <li class="">
+                            <a href="./Home.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">خانه</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="./OrderPage.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">رزومه</span>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown p-0 m-0">
+                            <a data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">
+                                <span
+                                    class="nav-link dropdown-toggle text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                    نمونه کار ها
+                                </span>
+                            </a>
+                            <div class="dropdown-menu bg-transparent text-left rounded-0 mt-1 bg-op-7">
+                                <a href="#"><span
+                                        class="p-2 dropdown-item text-gray-cety hover-text-white-cety focus-text-white-cety fa-09x">نمونه
+                                        کار
+                                        عکاسی</span></a>
+                                <a href="#"><span
+                                        class="p-2 dropdown-item text-gray-cety hover-text-white-cety focus-text-white-cety fa-09x">نمونه
+                                        کار طراحی
+                                        لوگو</span></a>
+                            </div>
+                        </li>
+                        <li class="">
+                            <a href="./About.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">درباره
+                                    من</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="./Contact.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
+                                    من</span>
+                            </a>
+                        </li>
+                        <li class="">
+                            <a href="./Weblog.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                    وبلاگ</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- end menu list -->
+                </nav>
+                <!-- end navbar -->
+
+                <div class="vl"></div><!-- for vertical line -->
+
+                <!-- logo -->
+                <div class="col-3 col-sm-1">
+                    <div class="d-flex w-75">
+                        <a href="./Home.html">
+                            <img src="./assets/img/logo/logo2 white png.png" alt="logo-image" class="w-100">
+                            <!-- logo img -->
+                        </a>
+                    </div>
+                </div>
+                <!-- end logo -->
+            </div>
+            <!-- end menu parts -->
+        </div>
+        <!-- end menu section for large screens-->
+
+        <!-- collapse menu section-->
+        <div class=" bg-dark-cety sidebar">
+            <div class="d-flex align-items-center justify-content-between container mx-auto p-2">
+
+                <!--logo pic -->
+                <div class="col-3 col-sm-1">
+                    <div class="d-flex w-75">
+                        <a href="./Home.html">
+                            <img src="./assets/img/logo/logo2 white png.png" alt="logo-image" class="w-100">
+                        </a>
+                    </div>
+                </div>
+                <!--end logo pic  -->
+
+                <!-- collapse sidebar or navbar btn  -->
+                <div>
+                    <button class="border-none bg-transparent" onclick="openNav()">
+                        <span
+                            class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety fa-15x"></span>
+                    </button>
+                </div>
+                <!-- end collapse sidebar or navbar btn -->
+
+            </div>
+            <!--end logo and collapse part-->
+
+        </div>
+        <!-- end collapse menu section-->
+
+    </header>
+    <!-- end header part -->
+
+    <!-- body part-->
+    <main>
+
+        <div class="container mx-auto bg-white pt-5 px-3 px-lg-5 pb-5">
+            <!-- breadcrumb nav  -->
+            <nav class="mb-3">
+                <ol class="breadcrumb bg-transparent">
+                    <li class="breadcrumb-item fa-08x"><a href="./Home.html"><span
+                                class="text-dark-cety hover-text-black-cety focus-text-black-cety">خانه</span></a>
+                    </li>
+                    <li class="breadcrumb-item text-dark-red-cety fa-08x" aria-current="page"><span>نمونه کار طراحی
+                            لوگو</span></li>
+                </ol>
+            </nav>
+            <!-- endbreadcrumb nav -->
+
+            <!-- logo samples section -->
+            <section class="d-flex flex-wrap justify-content-around">
+
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/1.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/2.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/3.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/7.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/8.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/5.jpg" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/9.jpg" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/1.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/2.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/3.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/7.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/8.png" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/5.jpg" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+                <!-- logo sample -->
+                <div class="col-5 col-sm-4 col-md-2 bg-light-cety p-3 m-2">
+                    <div class="d-flex flex-column w-100 h-100 justify-content-around">
+                        <!-- logo image -->
+                        <div>
+                            <img src="./assets/img/logo samples/9.jpg" alt="logo-sample" class="w-100">
+                        </div>
+                        <!-- end logo image -->
+
+                        <!-- logo text -->
+                        <div class="text-center mt-2">
+                            <p class="fa-08x">توضیحات</p>
+                        </div>
+                        <!-- end logo text -->
+                    </div>
+                </div>
+                <!-- end  logo sample -->
+
+            </section>
+            <!-- end logo samples section -->
+
+        </div>
+    </main>
+    <!-- end body part-->
+
+    <!-- footer part-->
+    <footer>
+        <div class="bg-dark-cety">
+
+            <!-- footer body parts -->
+            <div class="container mx-auto d-flex flex-column align-items-center pb-5 pt-4">
+
+                <!-- footer nav -->
+                <nav class="w-100">
+                    <ul class="row justify-content-center">
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">خانه</span></a>
+                        </li>
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">رزومه</span></a>
+                        </li>
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">نمونه
+                                    کارها</span></a></li>
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">درباره
+                                    من</span></a></li>
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
+                                    من</span></a></li>
+                        <li class="col-4 col-lg-auto text-center mx-4"><a href=""><span
+                                    class="text-gray-cety hover-text-white-cety focus-text-white-cety">وبلاگ</span></a>
+                        </li>
+                    </ul>
+                </nav>
+                <!-- end footer nav -->
+
+                <!-- terms -->
+                <div class="my-4">
+                    <p class="fa-06x text-gray-cety text-justify">تمامی حقوق مادی و معنوی این سایت مطعلق به ستی میباشد.
+                        طراحی شده در
+                        سال 2019</p>
+                </div>
+                <!-- end terms -->
+
+                <!-- social media -->
+                <div>
+                    <a href=""><i
+                            class="fab fa-facebook text-gray-cety hover-text-white-cety focus-text-white-cety mx-1"></i></a>
+                    <a href=""><i
+                            class="fab fa-linkedin text-gray-cety hover-text-white-cety focus-text-white-cety mx-1"></i></a>
+                    <a href=""><i
+                            class="fab fa-twitter text-gray-cety hover-text-white-cety focus-text-white-cety mx-1"></i></a>
+                    <a href=""><i
+                            class="fab fa-instagram text-gray-cety hover-text-white-cety focus-text-white-cety mx-1"></i></a>
+                </div>
+                <!-- end social media -->
+
+            </div>
+            <!-- end footer body parts -->
+
+        </div>
+    </footer>
+    <!-- end footer part-->
+
+    <!-- side bar or navbar -->
+    <div>
+        <!-- the nav -->
+        <nav class="sidenav pt-1 bg-light-black-cety" id="Sidenav">
+            <div class="d-flex flex-column">
+                <!-- logo and close btn -->
+                <div class="d-flex flex-row">
+                    <div class="text-center">
+                        <button class="btn border-none text-gray-cety bg-transparent" onclick="closeNav()">
+                            <i class="fa fa-times fa-2x"></i>
+                        </button><!-- close btn -->
+                    </div>
+                    <div id="sidenav_logo" class="col-3 col-sm-1">
+                        <div class="d-flex w-75">
+                            <a href="./Home.html">
+                                <img src="./assets/img/logo/logo2 white png.png" alt="logo-image" class="w-100">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- end logo and close btn -->
+                <!-- links list -->
+                <div id="sidenavlist" class="w-100 text-center pt-4">
+                    <ul>
+                        <li class="border-bottom">
+                            <a href="./Home.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">خانه
+                                </span>
+                            </a>
+                        </li>
+                        <li class="border-bottom">
+                            <a href="./OrderPage.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">رزومه
+                                </span>
+                            </a>
+                        </li>
+                        <li class="border-bottom">
+                            <button class="btn" onclick="sub_menu(this)">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                    نمونه کار ها
+                                    <i class="fa fa-caret-down"></i>
+                                </span>
+                            </button>
+
+                            <!-- sub menu -->
+                            <ul class="d-none mx-4 py-2">
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-07x">نمونه
+                                            کار عکاسی</span>
+                                    </a>
+                                </li>
+                                <li class="border-top">
+                                    <a href="#">
+                                        <span
+                                            class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-07x">نمونه
+                                            کار طراحی لوگو</span>
+                                    </a>
+                                </li>
+                            </ul>
+                            <!-- end sub menu -->
+
+                        </li>
+                        <li class="border-bottom">
+                            <a href="./About.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">درباره
+                                    من</span>
+                            </a>
+                        </li>
+                        <li class="border-bottom">
+                            <a href="./Contact.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
+                                    من</span>
+                            </a>
+                        </li>
+                        <li class="border-bottom">
+                            <a href="./Weblog.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">وبلاگ
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <!-- end link list -->
+            </div>
+        </nav>
+        <!-- end nav -->
+
+        <div class="cover bg-light-black-cety" id="cover" onclick="closeNav()"></div><!-- for bg covering -->
+
+    </div>
+    <!-- end sidebar or navbar -->
+
+</body>
+
+</html>

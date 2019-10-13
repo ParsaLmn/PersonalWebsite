@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>جزییات وبلاگ</title>
+    <title>نمونه کار عکاسی</title>
     <link rel="icon" href="./assets/img/logo/logo2_black_icon.ico">
     <link rel="stylesheet" href="assets/custom/css/Style.css">
     <link rel="stylesheet" href="assets/custom/css/Rtl.css">
@@ -16,6 +16,8 @@
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./assets/lightbox/css/lightbox.css">
+    <script src="./assets/lightbox/js/lightbox-plus-jquery.js"></script>
 </head>
 
 <body>
@@ -67,8 +69,8 @@
                         </li>
                         <li class="">
                             <a href="./Contact.html">
-                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
-                                    من</span>
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                    ارتباط با من</span>
                             </a>
                         </li>
                         <li class="">
@@ -116,7 +118,8 @@
                 <!-- collapse sidebar or navbar btn  -->
                 <div>
                     <button class="border-none bg-transparent" onclick="openNav()">
-                        <span class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
+                        <span
+                            class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
                     </button>
                 </div>
                 <!-- end collapse sidebar or navbar btn -->
@@ -131,94 +134,120 @@
     <!-- end header part -->
 
     <!-- body part-->
-    <main class="">
-        <section class="container bg-white mx-auto pt-5 px-3 px-lg-0 pb-5">
-            <div class="row justify-content-around">
+    <main>
 
-                <!-- weblog section -->
-                <div class="col-12 col-lg-7 mb-3 mb-lg-0 order-lg-0">
+        <div class="container mx-auto bg-white pt-5 px-3 px-lg-5 pb-5">
 
-                    <!-- weblog -->
-                    <article>
+            <!-- breadcrumb nav  -->
+            <nav class="mb-3">
+                <ol class="breadcrumb bg-transparent">
+                    <li class="breadcrumb-item fa-08x"><a href="./Home.html"><span
+                                class="text-dark-cety hover-text-black-cety focus-text-black-cety">خانه</span></a>
+                    </li>
+                    <li class="breadcrumb-item text-dark-red-cety fa-08x" aria-current="page"><span>نمونه کار عکاسی
+                        </span></li>
+                </ol>
+            </nav>
+            <!-- endbreadcrumb nav -->
 
-                        <!-- weblog image -->
-                        <div>
-                            <img src="./assets/img/weblogs/weblog4.jpg" alt="weblog-image" class="w-100 img-cover">
-                        </div>
-                        <!-- end weblog image -->
+            <!-- logo samples section -->
+            <section class="d-flex flex-wrap justify-content-around" class="gallery">
 
-                        <!-- weblog title -->
-                        <h5 class="text-dark-red-cety text-center my-3">موضوع وبلاگ</h5>
-                        <!-- end weblog title -->
-
-                        <!-- weblog text -->
-                        <p class="text-justify text-dark-cety mt-3 mb-5 mb-lg-3">لورم ایپسوم متن ساختگی با تولید سادگی
-                            نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه
-                            روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
-                            کاربردهای متنوع
-                            با هدف بهبود ابزارهای کاربردی می باشد. کتابهای زیادی در شصت و سه درصد گذشته، حال و آینده
-                            شناخ
-                            ت فراوان جامعه و متخصصان را می طلبد تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای
-                            علی
-                            الخصوص طراحان خلاقی و فرهنگ پیشرو در زبان فارسی ایجاد کرد. در این صورت می توان امید داشت که
-                            تمام
-                            و دشواری موجود در ارائه راهکارها و شرایط سخت تایپ به پایان رسد وزمان مورد نیاز شامل حروفچینی
-                            دستاوردهای اصلی و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.
-                        </p>
-                        <!-- end weblog text -->
-
-                        <!-- weblog time and date -->
-                        <div class="d-flex flex-row justify-content-between my-3">
-                            <div class="mx-2">نوشته شده در:</div>
-                            <div>
-                                <span class="mx-2">15:30</span><!-- weblog time -->
-                                <span>-</span>
-                                <span class="mx-2">98/08/11</span><!-- weblog date -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate1.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
                             </div>
-                        </div>
-                        <!-- end weblog time and date -->
-
-                        <hr><!-- horizental line for seperation -->
-
-                    </article>
-                    <!-- end weblog -->
-                    
-                </div>
-                <!-- end weblog section -->
-
-                <!-- side section -->
-                <div class="col-12 col-lg-3 mb-3 mt-5 mt-lg-0 mb-lg-0 order-lg-1">
-
-                    <!-- side title -->
-                    <div class="d-flex justify-content-center mb-3">
-                        <h6 class="text-dark-cety">آخرین وبلاگ</h6>
-                    </div>
-                    <!-- end side title -->
-
-                    <!-- side weblog -->
-                    <div class="px-5 px-lg-4 my-3">
-                        <!-- side weblog body-->
-                        <a href="./Weblog-Detail.html">
-                            <div>
-                                <img src="./assets/img/weblogs/weblog3.jpg" alt="weblog-image" class="w-100 img-cover"
-                                    height="300px">
-                            </div>
-                            <!--weblog image-->
-                            <h6 class="text-dark-red-cety text-center py-3">موضوع وبلاگ</h6><!-- weblog title-->
-                            <p class="text-dark-cety text-justify pb-3 fa-07x">
-                                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک
-                                است.
-                            </p>
-                            <!--weblog desc-->
                         </a>
-                        <!--end side weblog body-->
                     </div>
-                    <!-- side weblog -->
                 </div>
-                <!-- end side section -->
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate2.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate2.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate4.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate4.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate5.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate6.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate6.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate7.jpg">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="./assets/img/photograpgy/portrate7.jpg" alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <a href="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                            data-lightbox="mygallery">
+                            <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                <img src="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                    alt="" class="w-100">
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
 
-            </div>
-        </section>
+            </section>
+            <!-- end Photography samples section -->
+
+        </div>
     </main>
     <!-- end body part-->
 
@@ -354,8 +383,8 @@
                         </li>
                         <li class="border-bottom">
                             <a href="./Contact.html">
-                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با
-                                    من</span>
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با من
+                                </span>
                             </a>
                         </li>
                         <li class="border-bottom">

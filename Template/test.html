@@ -6,16 +6,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>test</title>
     <link rel="icon" href="./assets/img/logo/logo2_black_icon.ico">
-    <link rel="stylesheet" href="assets/custom/css/Style.css">
-    <link rel="stylesheet" href="assets/custom/css/Rtl.css">
-    <link rel="stylesheet" href="/assets/custom/css/FontAwesome-Custom.css">
-    <script src="/assets/jquery-3.4.1/jquery-3.4.1.js"></script>
-    <script src="assets/bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
+    <link rel="stylesheet" href="./assets/custom/css/Style.css">
+    <link rel="stylesheet" href="./assets/custom/css/Rtl.css">
+    <link rel="stylesheet" href="./assets/custom/css/FontAwesome-Custom.css">
+    <script src="./assets/jquery-3.4.1/jquery-3.4.1.js"></script>
+    <script src="./assets/bootstrap-4.1.3/js/bootstrap.bundle.js"></script>
     <script src="../../bootstrap-4.1.3/js/bootstrap.js"></script>
     <script src="./assets/custom/js/Actions.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="stylesheet" href="./assets/lightbox/css/lightbox.css">
+    <script src="./assets/lightbox/js/lightbox-plus-jquery.js"></script>
 </head>
 
 <body>
@@ -49,7 +51,7 @@
                                 </span>
                             </a>
                             <div class="dropdown-menu bg-transparent text-left rounded-0 mt-1 bg-op-7">
-                                <a href="#"><span
+                                <a href="./WorkSaples - Photo.html"><span
                                         class="p-2 dropdown-item text-gray-cety hover-text-white-cety focus-text-white-cety fa-09x">نمونه
                                         کار
                                         عکاسی</span></a>
@@ -66,8 +68,11 @@
                             </a>
                         </li>
                         <li class="">
-                                <span class=" active">ارتباط با من</span>
-                            </li>
+                            <a href="./Contact.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                    ارتباط با من</span>
+                            </a>
+                        </li>
                         <li class="">
                             <a href="./Weblog.html">
                                 <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
@@ -113,7 +118,8 @@
                 <!-- collapse sidebar or navbar btn  -->
                 <div>
                     <button class="border-none bg-transparent" onclick="openNav()">
-                        <span class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
+                        <span
+                            class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
                     </button>
                 </div>
                 <!-- end collapse sidebar or navbar btn -->
@@ -128,155 +134,306 @@
     <!-- end header part -->
 
     <!-- body part-->
-    <main class="">
-        <section class="container bg-white mx-auto pt-5 px-3 px-lg-0 pb-5">
-            <div class="row justify-content-around">
+    <main>
 
-                <!-- contact form section -->
-                <div class="col-12 col-lg-7 mb-3 mb-lg-0 order-lg-0">
+        <div class="container mx-auto bg-white pt-5 px-3 px-lg-5 pb-5">
 
-                    <!-- text-->
-                    <div class="px-lg-5 text-left">
-                        <p>اگر نظر و پیشنهاد دارید برای من بنویسید</p>
-                    </div>
-                    <!-- end text-->
+            <!-- breadcrumb nav  -->
+            <nav class="mb-3">
+                <ol class="breadcrumb bg-transparent">
+                    <li class="breadcrumb-item fa-08x"><a href="./Home.html"><span
+                                class="text-dark-cety hover-text-black-cety focus-text-black-cety">خانه</span></a>
+                    </li>
+                    <li class="breadcrumb-item text-dark-red-cety fa-08x" aria-current="page"><span>نمونه کار عکاسی
+                        </span></li>
+                </ol>
+            </nav>
+            <!-- endbreadcrumb nav -->
 
-                    <!-- form section-->
-                    <div class="px-lg-5 mt-4 mb-3">
-                        <!-- contact form -->
-                        <form action="">
+            <!-- logo samples section -->
+            <section class="row" class="gallery">
 
-                            <!-- name and last name -->
-                            <div class="form-row justify-content-between mb-4">
-
-                                <!-- name part -->
-                                <div class="col-6 form-group text-left pr-3">
-                                    <label class="fa-08x p-1" for="name">نام</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="name"
-                                        aria-describedby="name"><!-- name input -->
-                                    <!--clear btn-->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
+                <section class="col-12 col-md-4">
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
                                 </div>
-                                <!-- end name part -->
-
-                                <!-- last name part -->
-                                <div class="col-6 form-group text-left pl-3">
-                                    <label class="fa-08x p-1 " for="lastname">نام خانواگی</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="lastname"
-                                        aria-describedby="lastname"><!-- last name input -->
-                                    <div class="invalid-feedback">وارد کردن نام خانوادگی ضروری است</div>
-                                    <!-- feedback msg -->
-                                </div>
-                                <!-- end last name part -->
-                            </div>
-                            <!-- end name and last name -->
-
-                            <!-- email -->
-                            <div class="form-row mb-4">
-
-                                <!-- email part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="email">پست الکترونیک</label>
-                                    <input type="email" class="form-control text-dark-cety p-2 rounded-0" id="email"
-                                        aria-describedby="name"><!-- name input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end email part -->
-
-                            </div>
-                            <!-- end email -->
-
-                            <!-- title -->
-                            <div class="form-row mb-4">
-
-                                <!-- title part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="title">موضوع</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="title"
-                                        aria-describedby="name"><!-- title input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end title part -->
-
-                            </div>
-                            <!-- end title -->
-
-                            <!-- description -->
-                            <div class="form-row mb-4">
-
-                                <!-- description part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="description">پیغام</label>
-                                    <textarea class="form-control rounded-0 text-dark-cety p-2" id="description"
-                                        rows="3"></textarea>
-                                    <!-- description input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end description part -->
-
-                            </div>
-                            <!-- end email -->
-
-                            <div class="col-12 mt-4">
-                                <button type="submit"
-                                    class="btn rounded-0 bg-dark-red-cety text-gray-cety hover-text-white-cety focus-text-white-cety  focus-bg-gray-cety
-                                     focus-text-dark-cety">
-                                    تایید
-                                </button>
-                            </div>
-                            <!-- submit btn -->
-
-                        </form>
-                        <!-- end contact form -->
-                    </div>
-                    <!-- end form section-->
-
-                    <hr><!-- horizental line for seperation -->
-
-                </div>
-                <!-- contact form section -->
-
-                <!-- side section -->
-                <div class="col-12 col-lg-3 mb-3 mt-5 mt-lg-0 mb-lg-0 order-lg-1">
-
-                    <!-- side info -->
-                    <div class="px-5 px-lg-4 my-3">
-                        <!-- side info body-->
-                        <div>
-
-                            <!-- my image-->
-                            <div>
-                                <img src="./assets/img/photograpgy/portrate3.jpg" alt="weblog-image"
-                                    class="w-100 img-cover" height="300px">
-                            </div>
-                            <!-- end my image-->
-
-                            <h6 class="text-dark-cety text-center pt-3 pb-1">MyEmail@gmail.com</h6><!-- my email-->
-
-                            <h6 class="text-dark-cety text-center py-1">0911-313-5088</h6><!-- my phone number-->
-
-                            <!-- social media -->
-                            <div class="d-flex justify-content-center">
-                                <a href=""><i
-                                        class="fab fa-facebook text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-linkedin text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-twitter text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-instagram text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                            </div>
-                            <!-- end social media -->
-
+                            </a>
                         </div>
-                        <!--end side info body-->
                     </div>
-                    <!-- side info -->
-                </div>
-                <!-- end side section -->
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate5.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate4.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate4.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate1.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate6.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate6.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a href="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                data-lightbox="mygallery">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                        alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                </section>
+                <section class="col-12 col-md-4">
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate1.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate6.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate6.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate5.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate4.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate4.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate2.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate2.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate1.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a href="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                data-lightbox="mygallery">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                        alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                </section>
+                <section class="col-12 col-md-4">
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate2.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate2.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate6.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate6.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate4.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate4.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate1.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate5.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate3.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a data-lightbox="mygallery" href="./assets/img/photograpgy/portrate5.jpg">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                    <!-- Photography sample -->
+                    <div class="col-12">
+                        <div class="p-2">
+                            <a href="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                data-lightbox="mygallery">
+                                <div class="border-0 m-0 p-0 img-hover-zoom hover-shadow">
+                                    <img src="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg"
+                                        alt="" class="w-100">
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+                    <!-- end Photography sample -->
+                </section>
 
-            </div>
-        </section>
+            </section>
+            <!-- end Photography samples section -->
+
+        </div>
     </main>
     <!-- end body part-->
 
@@ -362,8 +519,8 @@
                 </div>
                 <!-- end logo and close btn -->
                 <!-- links list -->
-                <div id="sidenavlist" class="w-100 text-center pt-4">
-                    <ul>
+                <div id="" class="w-100 text-center pt-4">
+                    <ul class="mb-5 pb-5">
                         <li class="border-bottom">
                             <a href="./Home.html">
                                 <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">خانه
@@ -387,7 +544,7 @@
                             <!-- sub menu -->
                             <ul class="d-none mx-4 py-2">
                                 <li class="border-top">
-                                    <a href="#">
+                                    <a href="./WorkSaples - Photo.html">
                                         <span
                                             class="text-gray-cety hover-text-white-cety focus-text-white-cety fa-07x">نمونه
                                             کار عکاسی</span>
@@ -411,7 +568,10 @@
                             </a>
                         </li>
                         <li class="border-bottom">
-                            <span class="active">ارتباط با من</span>
+                            <a href="./Contact.html">
+                                <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با من
+                                </span>
+                            </a>
                         </li>
                         <li class="border-bottom">
                             <a href="./Weblog.html">

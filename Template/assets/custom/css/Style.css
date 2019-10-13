@@ -261,6 +261,16 @@ nav>ul>li:hover:after {
 	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
 }
 
+.img-hover-zoom {
+	overflow: hidden;
+}
+.img-hover-zoom img {
+	transition: transform .5s ease;
+}
+.img-hover-zoom:hover img {
+	transform: scale(1.1);
+}
+
 
 /*----------end custom style part----------*/
 

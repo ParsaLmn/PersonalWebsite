@@ -253,6 +253,14 @@ nav>ul>li:hover:after {
 	object-fit: cover;
 }
 
+.hover-shadow:hover {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
+}
+
+.hover-shadow:focus {
+	box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.4) !important;
+}
+
 
 /*----------end custom style part----------*/
 

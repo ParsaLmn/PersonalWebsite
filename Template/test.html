@@ -66,7 +66,10 @@
                             </a>
                         </li>
                         <li class="">
-                                <span class=" active">ارتباط با من</span>
+                                <a href="./Contact.html">
+                                    <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">
+                                        ارتباط  با من</span>
+                                </a>
                             </li>
                         <li class="">
                             <a href="./Weblog.html">
@@ -113,7 +116,8 @@
                 <!-- collapse sidebar or navbar btn  -->
                 <div>
                     <button class="border-none bg-transparent" onclick="openNav()">
-                        <span class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
+                        <span
+                            class="fa fa-bars text-gray-cety hover-text-white-cety focus-text-white-cety  fa-15x"></span>
                     </button>
                 </div>
                 <!-- end collapse sidebar or navbar btn -->
@@ -128,155 +132,102 @@
     <!-- end header part -->
 
     <!-- body part-->
-    <main class="">
-        <section class="container bg-white mx-auto pt-5 px-3 px-lg-0 pb-5">
-            <div class="row justify-content-around">
+    <main>
 
-                <!-- contact form section -->
-                <div class="col-12 col-lg-7 mb-3 mb-lg-0 order-lg-0">
+        <div class="container mx-auto bg-white pt-5 px-3 px-lg-5 pb-5">
 
-                    <!-- text-->
-                    <div class="px-lg-5 text-left">
-                        <p>اگر نظر و پیشنهاد دارید برای من بنویسید</p>
+            <!-- breadcrumb nav  -->
+            <nav class="mb-3">
+                <ol class="breadcrumb bg-transparent">
+                    <li class="breadcrumb-item fa-08x"><a href="./Home.html"><span
+                                class="text-dark-cety hover-text-black-cety focus-text-black-cety">خانه</span></a>
+                    </li>
+                    <li class="breadcrumb-item text-dark-red-cety fa-08x" aria-current="page"><span>نمونه کار عکاسی
+                        </span></li>
+                </ol>
+            </nav>
+            <!-- endbreadcrumb nav -->
+
+            <!-- logo samples section -->
+            <section class="d-flex flex-wrap justify-content-around">
+
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate1.jpg" alt="" class="w-100">
+                        </button>
                     </div>
-                    <!-- end text-->
-
-                    <!-- form section-->
-                    <div class="px-lg-5 mt-4 mb-3">
-                        <!-- contact form -->
-                        <form action="">
-
-                            <!-- name and last name -->
-                            <div class="form-row justify-content-between mb-4">
-
-                                <!-- name part -->
-                                <div class="col-6 form-group text-left pr-3">
-                                    <label class="fa-08x p-1" for="name">نام</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="name"
-                                        aria-describedby="name"><!-- name input -->
-                                    <!--clear btn-->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end name part -->
-
-                                <!-- last name part -->
-                                <div class="col-6 form-group text-left pl-3">
-                                    <label class="fa-08x p-1 " for="lastname">نام خانواگی</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="lastname"
-                                        aria-describedby="lastname"><!-- last name input -->
-                                    <div class="invalid-feedback">وارد کردن نام خانوادگی ضروری است</div>
-                                    <!-- feedback msg -->
-                                </div>
-                                <!-- end last name part -->
-                            </div>
-                            <!-- end name and last name -->
-
-                            <!-- email -->
-                            <div class="form-row mb-4">
-
-                                <!-- email part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="email">پست الکترونیک</label>
-                                    <input type="email" class="form-control text-dark-cety p-2 rounded-0" id="email"
-                                        aria-describedby="name"><!-- name input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end email part -->
-
-                            </div>
-                            <!-- end email -->
-
-                            <!-- title -->
-                            <div class="form-row mb-4">
-
-                                <!-- title part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="title">موضوع</label>
-                                    <input type="text" class="form-control text-dark-cety p-2 rounded-0" id="title"
-                                        aria-describedby="name"><!-- title input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end title part -->
-
-                            </div>
-                            <!-- end title -->
-
-                            <!-- description -->
-                            <div class="form-row mb-4">
-
-                                <!-- description part -->
-                                <div class="col-12 form-group  text-left">
-                                    <label class="fa-08x p-1" for="description">پیغام</label>
-                                    <textarea class="form-control rounded-0 text-dark-cety p-2" id="description"
-                                        rows="3"></textarea>
-                                    <!-- description input -->
-                                    <div class="valid-feedback">وارد کردن نام ضروری است</div> <!-- feedback msg -->
-                                </div>
-                                <!-- end description part -->
-
-                            </div>
-                            <!-- end email -->
-
-                            <div class="col-12 mt-4">
-                                <button type="submit"
-                                    class="btn rounded-0 bg-dark-red-cety text-gray-cety hover-text-white-cety focus-text-white-cety  focus-bg-gray-cety
-                                     focus-text-dark-cety">
-                                    تایید
-                                </button>
-                            </div>
-                            <!-- submit btn -->
-
-                        </form>
-                        <!-- end contact form -->
-                    </div>
-                    <!-- end form section-->
-
-                    <hr><!-- horizental line for seperation -->
-
                 </div>
-                <!-- contact form section -->
-
-                <!-- side section -->
-                <div class="col-12 col-lg-3 mb-3 mt-5 mt-lg-0 mb-lg-0 order-lg-1">
-
-                    <!-- side info -->
-                    <div class="px-5 px-lg-4 my-3">
-                        <!-- side info body-->
-                        <div>
-
-                            <!-- my image-->
-                            <div>
-                                <img src="./assets/img/photograpgy/portrate3.jpg" alt="weblog-image"
-                                    class="w-100 img-cover" height="300px">
-                            </div>
-                            <!-- end my image-->
-
-                            <h6 class="text-dark-cety text-center pt-3 pb-1">MyEmail@gmail.com</h6><!-- my email-->
-
-                            <h6 class="text-dark-cety text-center py-1">0911-313-5088</h6><!-- my phone number-->
-
-                            <!-- social media -->
-                            <div class="d-flex justify-content-center">
-                                <a href=""><i
-                                        class="fab fa-facebook text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-linkedin text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-twitter text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                                <a href=""><i
-                                        class="fab fa-instagram text-dark-cety hover-text-gray-cety focus-text-gray-cety mx-1"></i></a>
-                            </div>
-                            <!-- end social media -->
-
-                        </div>
-                        <!--end side info body-->
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate2.jpg" alt="" class="w-100">
+                        </button>
                     </div>
-                    <!-- side info -->
                 </div>
-                <!-- end side section -->
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate3.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate4.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate5.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate6.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="./assets/img/photograpgy/portrate7.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
+                <!-- Photography sample -->
+                <div class="col-12 col-sm-6 col-md-4">
+                    <div class="p-2">
+                        <button class="border-0 m-0 p-0">
+                            <img src="http://kristileilani.com/wp-content/uploads/2017/10/kristi-leilani-hines-freelance-writer-photographer.jpg" alt="" class="w-100">
+                        </button>
+                    </div>
+                </div>
+                <!-- end Photography sample -->
 
-            </div>
-        </section>
+            </section>
+            <!-- end Photography samples section -->
+
+        </div>
     </main>
     <!-- end body part-->
 
@@ -362,8 +313,8 @@
                 </div>
                 <!-- end logo and close btn -->
                 <!-- links list -->
-                <div id="sidenavlist" class="w-100 text-center pt-4">
-                    <ul>
+                <div id="" class="w-100 text-center pt-4">
+                    <ul class="mb-5 pb-5">
                         <li class="border-bottom">
                             <a href="./Home.html">
                                 <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">خانه
@@ -411,8 +362,11 @@
                             </a>
                         </li>
                         <li class="border-bottom">
-                            <span class="active">ارتباط با من</span>
-                        </li>
+                                <a href="./Contact.html">
+                                    <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">ارتباط با من
+                                    </span>
+                                </a>
+                            </li>
                         <li class="border-bottom">
                             <a href="./Weblog.html">
                                 <span class="text-gray-cety hover-text-white-cety focus-text-white-cety">وبلاگ
